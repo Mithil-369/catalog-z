@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+}
+.logo img {
+  margin-left: 35px;
+  margin-top: 30px;
+  height: 5vh;
+  width: 5vh;
+}
+h1 {
+  margin-left: 20px;
+  margin-top: 35px;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #0d6efd;
+}
+.menu-items {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 72rem;
+}
+.menu-items li {
+  padding-left: 3rem;
+  padding-right: 1rem;
+}
+.menu-items li a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 27px;
+  font-weight: 400;
+}
+/* Hero image  */
+.hero-parallax {
+  background-image: url("hero.jpg");
+  min-height: 520px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 1rem;
+}
+.search-input {
+  display: flex;
+  align-items: center;
+}
+.search {
+  height: 4rem;
+  width: 35rem;
+  border: none;
+  font-size: 25px;
+  padding: 10px;
+}
+.btn {
+  height: 4rem;
+  width: 7rem;
+  border: none;
+  background-color: #009999;
+}
+.search-logo img {
+  height: 25px;
+  width: 25px;
+}
+/* Main container  */
+.main-container {
+  margin-top: 60px;
+}
+.lp-row {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.lp-row h2 {
+  width: 50%;
+  font-size: 2rem;
+  padding-left: 2rem;
+  color: rgb(0, 153, 153);
+}
+.page-row {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.page-form {
+  font-size: 20px;
+  color: rgb(0, 153, 153);
+  margin-left: 50rem;
+}
+.page-form-input {
+  width: 40px;
+  text-align: center;
+  border-radius: 0px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+  background: rgb(244, 244, 244);
+  height: 30px;
+  font-size: 20px;
+  color: rgb(0, 153, 153);
+}
+/* container gallery */
+.main-container-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 90px;
+}
+.containers img {
+  width: 29rem;
+}
+.dates-display {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.containers {
+  margin-bottom: 5rem;
+}
+.text-gray {
+  color: gray;
+  font-size: 20px;
+}
+
+/* previous next page row */
+.previous-next-row {
+  margin-bottom: 90px;
+}
+.same-prop-row {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.common-btn {
+  width: 15rem;
+  font-size: 25px;
+  height: 4rem;
+  background-color: #009999;
+  color: white;
+  border-radius: 5px;
+  border: white;
+  margin: 10px;
+}
+.pages-btn {
+  display: flex;
+}
+.next-paging {
+  width: 70px;
+  font-size: 25px;
+  height: 70px;
+  background-color: #eeeeee;
+  color: #999;
+  border-radius: 5px;
+  border: white;
+  margin: 10px;
+}
+.active {
+  background-color: #009999;
+  color: #eeeeee;
+}
+/* footer */
+.footer {
+  background-color: #eeeeee;
+}
+.footer-row {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.row {
+  display: flex;
+  padding-top: 5rem;
+  height: 350px;
+}
+.about-section {
+  width: 70%;
+  height: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.common-heading {
+  margin-bottom: 25px;
+  font-size: 35px;
+  color: #009999;
+}
+.link-section {
+  width: 25rem;
+  margin-left: 35px;
+}
+.about-section p {
+  line-height: 2;
+  color: #999;
+  font-size: 20px;
+}
+.link-sec-ul {
+  padding-left: 0px;
+  line-height: 45px;
+}
+.list {
+  list-style-type: none;
+}
+.common-a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #999;
+}
+.social-media-ul {
+  padding-left: 0px;
+  display: flex;
+  padding-bottom: 3.5rem;
+}
+.social-media-btn {
+  background-color: #877d7d33;
+  height: 50px;
+  width: 50px;
+  margin: 0px 20px 20px 20px;
+  border: white;
+  border-radius: 5px;
+}
+.social-media-img {
+  height: 20px;
+  width: 20px;
+}
+.pinterest-img {
+  width: 30px;
+  height: 30px;
+}
+.term-policy {
+  margin-bottom: 20px;
+  margin-left: 14rem;
+  font-size: 20px;
+  color: #999;
+}
+.copyright-row {
+  display: flex;
+}
+.copyright-text {
+  width: 50%;
+  padding-left: 50px;
+  color: #999;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.designed-by-text {
+  padding-left: 20rem;
+  color: #999;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
