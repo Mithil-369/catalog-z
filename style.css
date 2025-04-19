@@ -40,7 +40,7 @@ h1 {
 }
 /* Hero image  */
 .hero-parallax {
-  background-image: url("hero.jpg");
+  background-image: url("catlogz-images/hero.jpg");
   min-height: 520px;
   background-attachment: fixed;
   background-position: center;
