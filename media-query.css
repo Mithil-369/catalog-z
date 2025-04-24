@@ -172,3 +172,132 @@
     font-size: 8px;
   }
 }
+
+@media screen and (min-width: 375px) {
+  .logo img {
+    height: 20px;
+    width: 20px;
+  }
+  .logo h1 {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .nav-toggle img {
+    height: 15px;
+  }
+  .hero-parallax {
+    min-height: 250px;
+    margin: 0px 5px 50px 5px;
+  }
+  .search {
+    height: 30px;
+    width: 75%;
+    font-size: 15px;
+  }
+  .btn {
+    height: 30px;
+    width: 25%;
+  }
+  .search-logo img {
+    height: 12px;
+    width: 12px;
+  }
+  .lp-row {
+    margin: 0px 5px 25px 5px;
+  }
+  .lp-row h2 {
+    font-size: 20px;
+  }
+  .page-form {
+    font-size: 15px;
+  }
+  .page-form-input {
+    height: 15px;
+    width: 20px;
+    font-size: 15px;
+  }
+  .containers {
+    margin-bottom: 40px;
+  }
+  .containers img {
+    width: 165px;
+  }
+  .dates-display {
+    margin-top: 5px;
+  }
+  .text-gray {
+    font-size: 10px;
+  }
+  .main-container-gallery {
+    margin-bottom: 50px;
+  }
+  .common-btn {
+    width: 75px;
+    height: 40px;
+    font-size: 11px;
+    margin: 5px;
+  }
+  .pages-btn {
+    align-items: center;
+  }
+  .next-paging {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+    margin: 5px;
+  }
+  .previous-next-row {
+    margin-bottom: 50px;
+  }
+  .common-heading {
+    font-size: 15px;
+  }
+  .about-section {
+    width: 80%;
+  }
+  .about-section p {
+    font-size: 10px;
+  }
+  .common-a {
+    font-size: 10px;
+  }
+  .link-section {
+    width: 55%;
+    margin-left: 20px;
+  }
+  .link-sec-ul {
+    line-height: 18px;
+  }
+  .social-media-btn {
+    height: 22px;
+    width: 22px;
+    margin: 0px 3px;
+  }
+  .social-media-img {
+    height: 10px;
+    width: 10px;
+  }
+  .social-media-ul {
+    padding-bottom: 45px;
+  }
+  .term-policy {
+    margin-bottom: 10px;
+  }
+  .pinterest-img {
+    height: 15px;
+    width: 15px;
+  }
+  .term-policy {
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  .copyright-text {
+    font-size: 8px;
+  }
+  .designed-by-text {
+    font-size: 8px;
+  }
+  .footer-row {
+    width: 90%;
+  }
+}
