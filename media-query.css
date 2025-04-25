@@ -1,59 +1,98 @@
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .containers img {
     width: 300px;
   }
   .social-media-btn {
     margin: 0px 10px;
   }
-}
+  .nav-toggle {
+    display: none;
+  }
+} */
 
 @media screen and (max-width: 768px) {
-  .nav-toggle {
-    display: block;
+  .navbar {
+    position: relative;
   }
   .nav-toggle img {
     height: 20px;
   }
   .menu {
     display: none;
+    flex-direction: column;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 2px 50px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    gap: 8px;
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
   }
-  .row {
-    height: 250px;
-  }
-  .about-section {
-    width: 80%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .about-section p {
-    font-size: 12px;
-  }
-  .common-heading {
-    font-size: 25px;
-  }
-  .link-section {
-    width: 50%;
-    margin-left: 45px;
-  }
-  .common-a {
-    font-size: 12px;
-  }
-  .link-sec-ul {
-    line-height: 26px;
-  }
-  .social-media-btn {
-    margin: 0px 6px;
-  }
-  .term-policy {
-    font-size: 12px;
-    margin-left: 100px;
-  }
-  .copyright-text {
-    font-size: 12px;
-  }
-  .designed-by-text {
-    font-size: 12px;
-  }
+}
+.menu a {
+  color: #999;
+  padding: 5px 5px;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+.menu a:hover {
+  transition: 0.3s ease-in-out;
+  background-color: white;
+  color: rgb(0, 153, 153);
+}
+.nav-toggle {
+  display: block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.menu.open {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+.nav-toggle.open {
+  transform: rotate(90deg);
+}
+.row {
+  height: 250px;
+}
+.about-section {
+  width: 80%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.about-section p {
+  font-size: 12px;
+}
+.common-heading {
+  font-size: 25px;
+}
+.link-section {
+  width: 50%;
+  margin-left: 45px;
+}
+.common-a {
+  font-size: 12px;
+}
+.link-sec-ul {
+  line-height: 26px;
+}
+.social-media-btn {
+  margin: 0px 6px;
+}
+.term-policy {
+  font-size: 12px;
+  margin-left: 100px;
+}
+.copyright-text {
+  font-size: 12px;
+}
+.designed-by-text {
+  font-size: 12px;
 }
 
 @media screen and (min-width: 425px) {
